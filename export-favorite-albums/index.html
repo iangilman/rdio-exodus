@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Export Favorite Albums</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="../lib/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../lib/rdio-utils/rdio-utils.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="https://www.rdio.com/api/api.js?client_id=D9Y2oHvWlngkRrWcDQQvoQ"></script>
+    <script src="../lib/jquery-1.9.1.min.js"></script>
+    <script src="../lib/underscore-1.4.4.min.js"></script>
+    <script src="../lib/rdio-utils/rdio-utils.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="info">Download a JSON of all of the albums in your Rdio collection, for safekeeping.</div>
+      <div class="auth-section">
+        <span class="authed">Signed in as </span><span class="auth"></span>
+      </div>
+      <div class="working">Loading...</div>
+      <a class="save">Download</a>
+    </div>
+  </body>
+</html>
