@@ -4,7 +4,7 @@
     // ----------
     init: function() {
       var self = this;
-      
+
       if (!rdioUtils.startupChecks()) {
         return;
       }
@@ -26,10 +26,16 @@
         onLoadComplete: function() {
           var data = [];
 
+
           self.collection.each(function(v, i) {
+            // if (i === 0) {
+            //   console.log(v);
+            // }
+
             data.push({
               name: v.name,
-              artist: v.artist
+              artist: v.artist,
+              rdioKey: v.key
             });
           });
 
@@ -49,10 +55,10 @@
       });
     }
   };
-  
+
   // ----------
   $(document).ready(function() {
     Main.init();
   });
-  
-})();  
+
+})();
