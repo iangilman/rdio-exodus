@@ -1,7 +1,37 @@
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: white;
+  width: 95%;
+  max-width: 900px;
+  margin: auto;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.logo {
+  background-image: url("../img/rdio-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 140px;
+  border: 1px solid black;
+}
+
+.exodus {
+  height: 60px;
+  width: 140px;
+  font-size: 40px;
+  color: red;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 .content {
+  background-color: gray;
   margin: 15px auto;
   width: 95%;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 li {
