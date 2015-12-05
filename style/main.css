@@ -1,10 +1,12 @@
 body {
   background-color: #3e9ed6;
-  background-image: url("http://www.transparenttextures.com/patterns/3px-tile.png");
+  background-image: url("../img/background-tile.png");
 }
 
 .banner {
   padding: 1em;
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   background-color: #eee;
@@ -16,7 +18,7 @@ body {
   box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
-.logo {
+.logo-rdio {
   background-image: url("../img/rdio-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -25,7 +27,7 @@ body {
   width: 130px;
 }
 
-.exodus {
+.logo-exodus {
   background-image: url("../img/exodus2.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -54,14 +56,26 @@ h2 {
   border-top: 2px dotted #aaa;
   color: #008fd5;
   font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 1em 0 0 1em;
   text-align: left;
 }
 
 p {
   padding: 0 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 a {
   color: #3e9ed6;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
 }
