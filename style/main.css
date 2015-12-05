@@ -1,39 +1,67 @@
+body {
+  background-color: #3e9ed6;
+  background-image: url("http://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
 .banner {
+  padding: 1em;
   display: flex;
-  flex-flow: row wrap;
-  background-color: white;
+  justify-content: space-between;
+  background-color: #eee;
   width: 95%;
   max-width: 900px;
   margin: auto;
-  height: 100px;
-  border: 1px solid red;
+  height: 60px;
+  padding-bottom: 10px;
+  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
 .logo {
   background-image: url("../img/rdio-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 60px;
-  width: 140px;
-  border: 1px solid black;
+  margin-top: 5px;
+  height: 50px;
+  width: 130px;
 }
 
 .exodus {
-  height: 60px;
-  width: 140px;
-  font-size: 40px;
-  color: red;
-  padding-top: 15px;
-  padding-left: 15px;
+  background-image: url("../img/exodus2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 5px;
+  height: 50px;
+  width: 117px;
 }
 
 .content {
-  background-color: gray;
-  margin: 15px auto;
+  position: relative;
+  padding: 1em;
+  background-color: #eee;
+  /*border-top: 2px dotted #aaa;*/
+  box-shadow: 0, 0 ;
+  margin: auto;
   width: 95%;
   max-width: 900px;
+  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
 li {
   margin: 0.5em 0;
+}
+
+h2 {
+  border-top: 2px dotted #aaa;
+  color: #008fd5;
+  font-size: 1.5em;
+  padding: 1em 0 0 1em;
+  text-align: left;
+}
+
+p {
+  padding: 0 1.5em;
+}
+
+a {
+  color: #3e9ed6;
 }
