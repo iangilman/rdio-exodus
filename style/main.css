@@ -3,62 +3,17 @@ body {
   background-image: url("../img/background-tile.png");
 }
 
-.banner {
-  padding: 1em;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  background-color: #eee;
-  width: 95%;
-  max-width: 900px;
-  margin: auto;
-  height: 60px;
-  padding-bottom: 10px;
-  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
-}
-
-.logo-rdio {
-  background-image: url("../img/rdio-logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 5px;
-  height: 50px;
-  width: 130px;
-}
-
-.logo-exodus {
-  background-image: url("../img/exodus2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 8px;
-  height: 50px;
-  width: 117px;
-}
-
-.content {
-  position: relative;
-  padding: 1em;
-  background-color: #eee;
-  /*border-top: 2px dotted #aaa;*/
-  box-shadow: 0, 0 ;
-  margin: auto;
-  width: 95%;
-  max-width: 900px;
-  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
-}
-
 li {
   margin: 0.5em 0;
 }
 
 h2 {
-  border-top: 2px dotted #aaa;
+  text-align: left;
+  padding: 1em 0 0 1em;
   color: #008fd5;
+  border-top: 2px dotted #aaa;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 1em 0 0 1em;
-  text-align: left;
 }
 
 p {
@@ -76,4 +31,47 @@ img {
   top: 0;
   right: 0;
   border: 0;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 95%;
+  max-width: 900px;
+  padding: 1em;
+  padding-bottom: 10px;
+  margin: auto;
+  background-color: #eee;
+  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+  z-index: 1;
+}
+
+.logo-rdio {
+  height: 50px;
+  width: 130px;
+  margin-top: 5px;
+  background-image: url("../img/rdio-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-exodus {
+  height: 50px;
+  width: 117px;
+  margin-top: 8px;
+  background-image: url("../img/exodus2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content {
+  position: relative;
+  width: 95%;
+  max-width: 900px;
+  padding: 1em;
+  margin: auto;
+  background-color: #eee;
+  box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
