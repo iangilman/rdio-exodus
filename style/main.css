@@ -71,8 +71,7 @@ a {
   color: #3e9ed6;
 }
 
-.forkme {
-  background-image: url("../img/forkme.png");
+img {
   position: absolute;
   top: 0;
   right: 0;
