@@ -31,12 +31,12 @@ img {
   top: 0;
   right: 0;
   border: 0;
+  z-index: 10;
 }
 
 .banner {
   position: relative;
   display: flex;
-  justify-content: space-between;
   height: 60px;
   width: 95%;
   max-width: 900px;
@@ -58,12 +58,11 @@ img {
 }
 
 .logo-exodus {
-  height: 50px;
-  width: 117px;
-  margin-top: 8px;
-  background-image: url("../img/exodus2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin-top: -12px;
+  margin-left: 8px;
+  font-family: 'Righteous', cursive;
+  font-size: 67px;
+  color: white;
 }
 
 .content {
@@ -74,4 +73,16 @@ img {
   margin: auto;
   background-color: #eee;
   box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .logo-exodus {
+    font-size: 35px;
+    margin-top: -5px;
+  }
+
+  .logo-rdio {
+    height: 25px;
+    width: 65px;
+  }
 }
