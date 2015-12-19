@@ -75,6 +75,27 @@ img {
   box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
 }
 
+.table-banner {
+  background-color: #ccc;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+
+table.alternatives {
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+table.alternatives td {
+  border: 1px dotted #999;
+  padding: 10px;
+}
+
+.table-name {
+  white-space: nowrap;
+}
+
 .footer {
   margin: 20px 0 0 0;
   padding: 25px 0 10px 0;
